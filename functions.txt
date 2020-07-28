@@ -1,0 +1,137 @@
+Functions:
+**********
+	
+	Initialise():
+		This Function Is The First Function Which Is Called When The
+		Programme Is Executed. It Checks Whether The Files Required
+		Are Available. If The Files Are Not Available It Creates One.
+	*********************************************************************
+
+	Internet_Available():
+		This Functions Uses The Socket Module To Get The Ipv4 Address
+		Of The Computer. It Returns False If The Ipv4 Address Is 127.0.0.1
+		(i.e) No Internet Connection. Else Returns True If The Computer Is 
+		Connected To The Internet.
+	**************************************************************************
+	
+	Current_Time_Date():
+		This Function Returns The Exact Date And Time Of Which When The 
+		Function Is Called And Returns Data In The Below Format.
+		"Day Month(In Short) Date, Time(HH:MM), Year"
+	************************************************************************** 
+
+	First_Write(Info, t):
+		This Function Will Write Info(User's Data) To The Users File. t
+		Refers To The Type Of User (i.e) Either Customer Or Seller.
+		0 - By Default - Refers To Customer File
+		Non Zero - Need To Be Passed - Refers To Seller File
+	***************************************************************************
+
+	Customer_Registration_Mail(to_send, name):
+		This Function Sends Email To The Customer With Email Id Refered In
+		to_send. The Email Greets The User With The Provided name.
+	***************************************************************************
+	
+	Seller_Registration_Mail(to_send, name, shopp):
+		This Function Is Same Like Customer_Registration_Mail(). In Addition
+		The Email Will Contain The Customers Shop Name.
+	***************************************************************************
+
+	Customer_Seller_Log_In_Checking(uname_email, password, cs):
+		This Function Checks Whether The password Is Refering To Correct 
+		uname_email(username or email). It Returns False If Did Not Match And
+		Returns True If They Match. The cs Will Decide What File To Check.
+		0 Refers To Customer File. Non Zero Number Refers To Seller File.
+	***************************************************************************
+
+	Generate_Validation_Key():
+		This Function Will Retunr An String Of Length 14 Characters With 
+		Some Random Letters In It.
+	************************************************************************
+
+	Send_Validation_Email(mail_to_send, key_to_send):
+		This Function Will Send The key_to_send(Validation Key) To The
+		mail_to_send(The Email To Which The Key	Has To Bes sent).
+	************************************************************************
+
+	Setting_New_Password(new_password, changer_email, code):
+		This Function Will Find The User With The Email/Username Referd
+		In changer_email And Replaces The Password With new_password. The
+		Code Decides Which File To Open. 0 Refers To Customer File And Non
+		Zero Number Refers To Seller File.
+	************************************************************************
+
+	Retrieve_User_Details(info, code):
+		This Function Will Return The List Containing All The Details Of The
+		User. info(Email Or Username) Is Used To Find The User Whose's Details 
+		To Be Returned. The Code Will Decide Which File To Open. 0 Refers To 
+		Customer File And Non Zero Number Refers To Seller File.
+	*****************************************************************************
+	
+	Retrieve_User_Pos(user_email, code):
+		This Function Opens The Seller/Cutomer File According To The code And
+		Searches For The Use With user_email(Username Or Email) And Returns His
+		/Her Postion In The File.
+	*******************************************************************************
+
+	Remove_Old_Replace_New(code, old_value, new_value):
+		This Function Will Replace The old_value In The File With new_value. The
+		code Will Decide Which File To Open. 0 - Cutomers Username File, 1 - 
+		Customers Email File, 2 - Sellers Shop Name File, Other Numbers - Sellers 
+		Email File.
+	**********************************************************************************
+
+	Change_The_Detail_In_File(code, utility_no, user_pos, value):
+		This Function Will Change The Detail Of The Old Value With value(new_value)
+		Of The Specific User With The user_pos. The utility_no Will Tell What Information
+		(name/email/password/username) To Change. The Code Will Decide Which File To Open.
+		0 Refers To Customer File And Non Zero Number Refers To Seller File.
+	******************************************************************************************
+
+	Content_To_Write_In_File(code, amount):
+		This Function Will Return What To Write In The Passbook File According To The amount
+		And code. 1 - Refers To Deposition, 2 - Refers To Purchase, 3 - Refers To Recieving,
+		4 - Refers To Withdraw.
+	*******************************************************************************************
+
+	Transaction_Mail(code, guy_name, his_balance, trans_amount, mail_to_send):
+		This Function Will Prepare An Mail In An Formatted Way Using his_balance(Balance Of User),
+		trans_amount(Transaction Amount), guy_name(User's Name). The Code Will Decide The Type Of
+		Formatting. 1 - Refers To Deposition, 2 - Refers To Purchase, 3 - Refers To Recieving,
+		4 - Refers To Withdraw.
+	**********************************************************************************************
+
+	Get_Category(sell_pos, product_name):
+		This Funtion Will Open The Seller's Warehouse Using sell_pos(Seller's Position) And Returns
+		The Category Of The Product With The product_name(Name Of The Selected Product).
+	***************************************************************************************************
+
+	Remove_Product(location, product_name):
+		This Function Will Open The location(Seller's Warehouse File) And Remove The Product With
+		The product_name(Name Of The Product).
+	***************************************************************************************************
+
+	Retreive_Products(category_name):
+		This Function Will Returns An List Of Product Names In The File With The Category Named
+		category_name.
+	***************************************************************************************************
+
+	Retrieve_User_USE(utype, pos, wtr):
+		This Function Will Return Username Or Email Or Shop Name According wtr. utype Refers Whether
+		The Data Provided Is Email Or Username/Shop Name.
+	****************************************************************************************************
+
+	Cart_Products(pos):
+		This Function Prints All The Products Present In The Cart Of The User With Position Equal To
+		pos.
+	****************************************************************************************************
+	
+	Write_To_Cart(pos, prod_details):
+		This Functions Opens The User Cart With The Position pos And Writes The prod_details To It.
+	**************************************************************************************************
+
+	Split_Money_Among_Sellers(price_seller_list):
+		This Function Is Executed When The User Checkouts. This Function Will Share The Money To
+		The Sellers Accordingly. The price_seller_list Contains Seller Pos And Amount To Add To
+		The Respective Seller.
+	*************************************************************************************************** 

@@ -1,0 +1,37 @@
+Exceptions:
+***********
+	
+	Invalid_Username():
+		This Exception Is Raised When The User Enter's
+		Invalid Username.
+	******************************************************
+	
+	Username_Taken():
+		This Exception Is Raised When The Username Is 
+		Already Taken.
+	******************************************************
+	
+	Email_Taken():
+		This Exception Is Raised When The Email Is
+		Already Taken.
+	******************************************************
+	
+	Password_Not_Match():
+		This Exception Is Raised When The Passwords Did 
+		Not Match With Each Other.
+	******************************************************
+	
+	Invalid_Email():
+		This Exception Is Raised When The Email Is Not
+		An Valid Email.
+	******************************************************
+	
+	Wrong_Validation_Key():
+		This Exception Is Raised When The User Enter's
+		Wrong Validation Key.
+	******************************************************
+	
+	No_Internet():
+		This Exception Is Raised When The User Is Not 
+		Connected To The Internet.
+	******************************************************
