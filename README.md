@@ -22,19 +22,28 @@
     <li>Customer/Seller Gets Email For Each And Every Single Transaction Made.</li>
 </ol><hr>
 <h3 id="glry">Gallery</h3>
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/1.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/2.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/3.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/4.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/5.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/6.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/7.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/8.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/9.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/10.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/11.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/12.PNG">
-<img src="https://github.com/its-me-sv/Bank_x64_x86/raw/master/Snips/13.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/1.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/2.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/3.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/4.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/5.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/6.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/7.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/8.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/9.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/10.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/11.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/12.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/13.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/14.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/15.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/16.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/17.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/18.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/19.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/20.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/21.PNG">
+<img src="https://github.com/its-me-sv/Shop_x86_x64/blob/master/Snips/22.PNG">
 <hr>
 <h3 id="docs">Documentation</h3>
 The File ("Documentation.rar") Includes The Documentation For The Following:<br>
