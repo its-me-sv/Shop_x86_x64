@@ -54,9 +54,10 @@ The File ("Documentation.rar") Includes The Documentation For The Following:<br>
     <li>Functions</li>
 </ul><hr>
 <h3 id="downloads">Downloads</h3>
-<a href="Bank_x86_x64.exe">Download Standalone Executable</a><br>
 <a href="Snips.rar">Download Gallery</a><br>
 <a href="Documentation.rar">Download The Complete Documentation</a><br>
-<a href="Bank_x86_x64.py">Download Bank_x86_x64.py [main]</a><br>
+<a href="shop_x86_x64.py">Download shop_x86_x64.py [main]</a><br>
+<a href="dependencies.py">Download dependencies.py [module]</a><br>
+<a href="shopping_project.rar">Download Complete Source Code [main, module, resources]</a><br>
 <hr>
 <a href="#top">Go To Table Of Contents</a>
