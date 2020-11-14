@@ -49,8 +49,8 @@
 The File ("Documentation.rar") Includes The Documentation For The Following:<br>
 <ul>
     <li>Special Features</li>
-    <li>Exceptions</li>
     <li>Classes</li>
+    <li>Exceptions</li>
     <li>Functions</li>
 </ul><hr>
 <h3 id="downloads">Downloads</h3>
